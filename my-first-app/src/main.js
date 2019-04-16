@@ -6,7 +6,7 @@ import '@quasar/extras/roboto-font/roboto-font.css'
 import '@quasar/extras/material-icons/material-icons.css'
 import '@quasar/extras/fontawesome-v5/fontawesome-v5.css'
 import {
-  Quasar, 
+  Quasar,
   QLayout,
   QHeader,
   QDrawer,
@@ -20,6 +20,9 @@ import {
   QItem,
   QItemSection,
   QItemLabel,
+  QCarousel,
+  QCarouselControl,
+  QCarouselSlide
 } from 'quasar'
 
 Vue.use(Quasar, {
@@ -38,12 +41,13 @@ Vue.use(Quasar, {
     QItem,
     QItemSection,
     QItemLabel,
+    QCarousel,
+    QCarouselControl,
+    QCarouselSlide
   },
-  directives: {
-  },
-  plugins: {
-  }
- })
+  directives: {},
+  plugins: {},
+})
 
 Vue.config.productionTip = false
 
